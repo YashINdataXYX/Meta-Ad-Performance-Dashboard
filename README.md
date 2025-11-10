@@ -5,8 +5,10 @@
 An interactive Power BI Dashboard built to analyze the performance of Meta (Facebook & Instagram) advertising campaigns.
 The dashboard provides a complete funnel view — from impressions and clicks to conversions and ROI — helping marketing teams uncover performance trends, bottlenecks, and optimization opportunities.
 
+
 💼 Business Problem
--Marketing teams lacked a centralized, data-driven view of campaign effectiveness across platforms. Existing reports failed to connect awareness, engagement, and conversion metrics, leading to inefficient budget allocation and missed insights.
+Marketing teams lacked a centralized, data-driven view of campaign effectiveness across platforms. Existing reports failed to connect awareness, engagement, and conversion metrics, leading to inefficient budget allocation and missed insights.
+
 
 🎯 Goal of the Dashboard
 
@@ -20,6 +22,7 @@ Design a metrics-based performance tracking solution that allows decision-makers
 
 -Understand audience behavior across demographics, geography, and time.
 
+
 💥 Business Impact
 
 -Achieved 40% faster decision-making through unified visualization.
@@ -30,7 +33,9 @@ Design a metrics-based performance tracking solution that allows decision-makers
 
 -Enhanced campaign ROI through data-backed targeting and scheduling strategies.
 
+
 🧩 Data Model & Source
+
 -Data Source: Kaggle (Meta Ads Performance Dataset)
 
 -Data Model: Star Schema consisting of one fact table (ad_events) and three dimension tables (ads, campaigns, and users).
@@ -38,6 +43,7 @@ Design a metrics-based performance tracking solution that allows decision-makers
 -Key Metrics: CTR, CPC, CPM, ROAS, Conversion Rate, Engagement Rate, Purchase Rate.
 
 -Tools Used: Power BI, DAX, Excel, SQL
+
 
 📈 Dashboard Features
 
@@ -51,6 +57,7 @@ Design a metrics-based performance tracking solution that allows decision-makers
 
 -Ad Type Performance: Compares Video, Story, Carousel, and Image formats by CTR and Conversion Rate.
 
+
 🎬 Walkthrough of Key Visuals
 
 -KPI Summary Cards: Show overall campaign results — 216K impressions, 25.4K clicks, 11.76% CTR, 5.21% conversion rate, and a total budget of 2.5M.
@@ -62,6 +69,7 @@ Design a metrics-based performance tracking solution that allows decision-makers
 -Line & Area Charts: Show hourly engagement peaks between 3 PM and 8 PM, guiding optimal ad scheduling.
 
 -Ad Type Matrix: Confirms Video and Story ads perform best in CTR and conversion rate.
+
 
 🔍 Key Insights
 
@@ -77,6 +85,7 @@ Design a metrics-based performance tracking solution that allows decision-makers
 
 Optimal Ad Timing: Afternoon and evening slots yield highest engagement.
 
+
 💡 Recommendations
 
 -Improve Conversions: Enhance landing page UX and retarget non-converting users.
@@ -90,6 +99,7 @@ Optimal Ad Timing: Afternoon and evening slots yield highest engagement.
 -Geo-Specific Strategy: Differentiate between high-volume (India/Brazil) and high-value (Germany/UK) markets.
 
 
+
 🛠️ Tools & Technologies
 
 -Power BI: Visualization, data modeling, and KPI reporting
@@ -99,6 +109,7 @@ Optimal Ad Timing: Afternoon and evening slots yield highest engagement.
 -DAX: Custom calculations and advanced measures
 
 -Data Modelling, Advanced Excel, Process Mapping, Data Connections, Requirements Gathering
+
 
 📁 Deliverables
 
